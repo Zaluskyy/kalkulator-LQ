@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    height: 500px;
+    border-radius: 2px solid black;
+    position: relative;
+    left: 50%;
+    margin-top: 50vh;
+    transform: translate(-50%, -50%);
+}
+
+
+input {
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid red;
+    transition: .2s;
+    outline: none;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    font-size: 20px;
+}
+
+input:focus {
+    width: 300px;
+    background-color: rgb(73, 71, 71);
+}
+
+span {
+    font-size: 20px;
+}
+
+.result {
+    margin-top: 100px;
+    font-size: 50px;
+}
