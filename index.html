@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Kalkulator LQ</title>
+    <title>Kalkulator mocy LQ</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
     <meta name="google-site-verification" content="tRsEUBkFRrQ_dehZlRf-uSYPHdQZ5KUri1KPBPRYiP0" />
     <meta name="google-adsense-account" content="ca-pub-9285247936234756">
 </head>
@@ -13,21 +14,25 @@
     
     <div class="container">
 
-        <input type="number"  class= "nicotineQuantity" min="0"/>
-        <br/>
-        <span>Ilość płynu nikotynowego</span>
+        <div class="topBar">
+            <h1>Kalkulator Mocy</h1>
+            <h2>liquid / premix / longfill</h2>
+        </div>
 
-        <br/>
+        <label>
+            <input type="number"  class= "nicotineQuantity" min="0"/>
+            <span>Ilość płynu nikotynowego</span>
+        </label>
 
-        <input type="number"  class="powerOfNicotine" min="0"/>
-        <br/>
-        <span>moc nikotyny</span>
+        <label>
+            <input type="number"  class="powerOfNicotine" min="0"/>
+            <span>moc nikotyny</span>
+        </label>
         
-        <br/>
-
-        <input type="number"  class= "nicotineFreeQuantity" min="0"/>
-        <br/>
-        <span>Ilość płynu bez nikotyny</span>
+        <label>
+            <input type="number"  class= "nicotineFreeQuantity" min="0"/>
+            <span>Ilość płynu bez nikotyny</span>
+        </label>
         
         <div class="result"></div>
         
